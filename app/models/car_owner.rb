@@ -38,7 +38,7 @@ class CarOwner
   end
 
   def mechanics #get list of mechanics that owner goes to per car
-    cars.map { |car| car.mechanic}
+    cars.map { |car| car.mechanic} #go thru cars owned, return @mechanic
   end
 
 
